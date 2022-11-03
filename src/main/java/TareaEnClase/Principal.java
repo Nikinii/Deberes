@@ -10,7 +10,7 @@ package TareaEnClase;
  */
 public class Principal {
     public static void main(String[] args){
-        var atencion1 = new Atencion1("10am-8pm","Patitas",10);
+        var atencion1 = new Atencion1("10am-8pm","Patitas",10,mascota1);
         var dueno1 = new Dueno1("Juanito Alcachofa",21,"0928287898");
         var mascota1 = new Mascota1("Bolita",10,dueno1);
         atencion1.mostrarInfo();
